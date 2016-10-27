@@ -22,10 +22,10 @@
 	background-size:cover;
 
 background: #32d4fc; 
-background: -moz-linear-gradient(left,  #32d4fc 0%, #e085f7 63%, #e085f7 100%, #e085f7 100%, #e085f7 100%, #2989d8 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(left,  #32d4fc 0%,#e085f7 63%,#e085f7 100%,#e085f7 100%,#e085f7 100%,#2989d8 100%); /* Chrome10-25,Safari5.1-6 */
+background: -moz-linear-gradient(left,  #32d4fc 0%, #e085f7 63%, #e085f7 100%, #e085f7 100%, #e085f7 100%, #2989d8 100%); 
+background: -webkit-linear-gradient(left,  #32d4fc 0%,#e085f7 63%,#e085f7 100%,#e085f7 100%,#e085f7 100%,#2989d8 100%); 
 background: linear-gradient(to right, #4cbcd8 0%,#f7de85 63%,#e085f7 100%,#e085f7 100%,#2989d8 100%,#2989d8 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#32d4fc', endColorstr='#e085f7',GradientType=1 ); /* IE6-9 */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#32d4fc', endColorstr='#e085f7',GradientType=1 ); 
 
 }
 
@@ -166,11 +166,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#32d4fc', end
 			  show_content(0);
 
 			  function show_content(index) {
-				// Make the content visible
+				
 				$('.tabs .content.visible').removeClass('visible');
 				$('.tabs .content:nth-of-type(' + (index + 1) + ')').addClass('visible');
 
-				// Set the tab to selected
+				
 				$('.tabs nav a.selected').removeClass('selected');
 				$('.tabs nav a:nth-of-type(' + (index + 1) + ')').addClass('selected');
 			  }
