@@ -181,7 +181,7 @@ h1 {
 }
 .text {
     padding: 1em;
-        border-bottom: 1px ridge #0360A0;
+        border-bottom: 1px ridge #cbcbe8;
 }
 .text:nth-child(5) {
     border: none;
@@ -218,7 +218,7 @@ h1 {
     float: right;
 }
 .tabs nav a:hover, .tabs nav a.selected {
-    background:#0360A0;
+    background: rgba(96, 178, 191, 0.55);
     color: #FFFFFF;
 }
 .tabs nav a.selected i{
